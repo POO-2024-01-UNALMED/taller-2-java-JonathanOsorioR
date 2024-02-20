@@ -3,10 +3,10 @@ package test;
 public class Auto {
 	String modelo;
 	int precio;
-	int registro;
 	Asiento [] asientos;
 	String marca;
 	Motor motor;
+	int registro;	
 	static int cantidadCreados;
 	
 	int cantidadAsientos(){
