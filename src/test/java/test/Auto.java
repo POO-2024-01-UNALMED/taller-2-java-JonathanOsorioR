@@ -7,7 +7,6 @@ public class Auto {
 	Asiento [] asientos;
 	String marca;
 	Motor motor;
-	
 	static int cantidadCreados;
 	
 	int cantidadAsientos(){
