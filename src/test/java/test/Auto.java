@@ -8,10 +8,15 @@ public class Auto {
 	String marca;
 	Motor motor;
 	
-	int cantidadCreados;
+	static int cantidadCreados;
 	
 	int cantidadAsientos(){
-		return asientos.length;
+		int totalAsientos;
+		for (int i=0; i<asientos.length;i++) {
+			if (asientos[i] != null) {
+				totalAsientos++;
+			}
+		} return totalAsientos;
 	}
 	String verificarIntegridad(){
 		if (this.motor.registro==this.registro){
